@@ -3,25 +3,10 @@
 using namespace std;
  
 
-class Node
-{
-    public:
-    int data;
-    Node* next;
-};
- 
 
-void sortList(Node *head)
-{
-    int count[3] = {0, 0, 0};
-    Node *ptr = head;
- 
 
-    while (ptr != NULL)
-    {
-        count[ptr->data] += 1;
-        ptr = ptr->next;
-    }
+
+   
  
     int i = 0;
     ptr = head;
